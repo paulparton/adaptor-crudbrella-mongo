@@ -1,6 +1,6 @@
 {
   "name": "adaptor-crudbrella-mongo",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "native mongodb adaptor for Crudbrella",
   "main": "index.js",
   "scripts": {
@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "lodash": "^2.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulparton/adaptor-crudbrella-mongo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paulparton/adaptor-crudbrella-mongo/issues"
+  },
+  "homepage": "https://github.com/paulparton/adaptor-crudbrella-mongo"
 }
