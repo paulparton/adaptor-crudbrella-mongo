@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Paul Parton",
   "license": "ISC",
   "dependencies": {
     "lodash": "^2.4.1"
