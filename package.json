@@ -1,5 +1,5 @@
 {
-  "name": "npm",
+  "name": "adaptor-crudbrella-mongo",
   "version": "1.0.0",
   "description": "native mongodb adaptor for Crudbrella",
   "main": "index.js",
