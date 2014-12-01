@@ -1,10 +1,6 @@
 var _  = require('lodash'),
 		ObjectId = require('mongodb').ObjectID;
 
-/*********
-* Crudbrella adaptor for the native mongo module
-**********/
-
 module.exports =  {
 
 	//Create a new record
@@ -39,10 +35,8 @@ module.exports =  {
 		checkForHexRegExp = /^(?=[a-f\d]{24}$)(\d+[a-f]|[a-f]+\d)/i;
 
 		if (id.match(checkForHexRegExp)) {
-			console.log('IT IS AN ID!, IT IS IT IS');
 			return true;
 		}else{
-			console.log('This aint yo daddies ID');
 			return false;
 		}
 
